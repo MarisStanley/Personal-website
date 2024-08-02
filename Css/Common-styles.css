@@ -1,0 +1,36 @@
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.border-light {
+  border: 1px solid #ccc;
+}
+
+.bg-light {
+  background: transparent;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #B88746, #FDF5A6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/*# sourceMappingURL=Common-styles.css.map */

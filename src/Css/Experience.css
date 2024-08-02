@@ -1,0 +1,522 @@
+p {
+  color: #ffffff;
+  margin: 60px 0;
+  padding-bottom: 20px;
+}
+
+.title,
+.title2,
+.title3,
+.title4 {
+  font-family: 'Playfair Display';
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.title,
+.title4 {
+  color: #fdf5ee;
+  font-size: 24px;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.title2 {
+  color: #fdf5ee;
+  font-size: 46px;
+  margin-left: 30px;
+  margin-bottom: 80px;
+}
+
+.title3 {
+  color: #fdf5ee;
+  font-size: 36px;
+  margin-bottom: 80px;
+  margin-left: 30px;
+}
+
+.title3,
+.title4 {
+  display: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin-top: 5%;
+  margin-left: 80px;
+}
+
+
+
+.left-side {
+  position: relative;
+  width: 100%;
+  padding: 40px;
+}
+
+
+.about {
+  margin-bottom: 50px;
+}
+
+.about:last-child {
+  margin-bottom: 0;
+}
+
+.about .box {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 30px;
+  padding: 5%;
+  transition: transform 0.3s ease;
+  box-shadow: rgba(201, 154, 110, 0.35) 0px 5px 15px;
+}
+
+.about .box:hover {
+  transform: scale(1.02);
+}
+
+.about .box .year_company {
+  min-width: 150px;
+  margin-bottom: 20px;
+}
+
+.about .box .year_company h6 {
+  font-family: 'Questrial';
+  color: #c9c3bb;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about .box .year_company h5 {
+  font-family: 'Playfair Display';
+  color: #fdf5ee;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about .box .text h4 {
+  font-family: 'Playfair Display';
+  text-transform: uppercase;
+  margin-left: 0;
+  margin-bottom: 10px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #B88746, #FDF5A6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 20px;
+}
+
+.right-side {
+  position: relative;
+  margin-top: 32%;
+  padding: 40px;
+}
+
+.career-growth {
+  margin-bottom: 80px;
+}
+
+.career-growth h5 {
+  font-family: 'Playfair Display';
+  color: #fdf5ee;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.career-growth img {
+  width: 25px;
+  height: auto;
+  min-width: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin: 4% 0 15% 0;
+}
+
+.career-growth img:hover {
+  background: linear-gradient(135deg, #ac343e, #660e29, #d64418);
+  border: 1px solid #660e29;
+}
+
+.career-growth h6 {
+  font-family: 'Questrial';
+  color: #c9c3bb;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.career-growth h4:nth-child(2) {
+  color: #fdf5ee;
+  font-weight: 500;
+}
+
+.career-growth ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding: 30px;
+  transition: transform 0.3s ease;
+  box-shadow: rgba(201, 154, 110, 0.35) 0px 5px 15px;
+}
+
+.career-growth ul:hover {
+  transform: scale(1.02);
+}
+
+.career-growth .sub-title {
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  background: linear-gradient(135deg, #B88746, #FDF5A6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.last-child {
+  margin-bottom: 20%;
+}
+
+.skills-container ul li {
+  position: relative;
+  list-style: none;
+  font-family: 'Questrial';
+  font-size: 0.9rem;
+  font-weight: 200;
+  margin: 10px 0;
+
+}
+
+.skills-container ul li h6 {
+  color: #fff;
+  font-weight: 200;
+}
+
+.first-column,
+.second-column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: rgba(201, 154, 110, 0.35) 0px 5px 15px;
+  transition: transform 0.3s ease;
+}
+
+.first-column:hover,
+.second-column:hover {
+  transform: scale(1.02);
+}
+
+.first-column h5,
+.second-column h5 {
+  font-family: 'Playfair Display';
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #B88746, #FDF5A6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.second-column {
+  margin-bottom: 50px;
+}
+
+.first-column ul,
+.second-column ul {
+  padding-left: 0;
+}
+
+.skill {
+  font-size: 14px;
+  color: white;
+}
+
+.skills-list.show-all .skill {
+  display: list-item;
+}
+
+.skills-container button {
+  margin-bottom: 10%;
+}
+
+.skills-container .show-more.btn {
+  display: none;
+}
+
+.show-more-btn {
+  height: auto;
+  display: inline-flex;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  padding: 0 10% 0 10%;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #ac343e, #660e29, #d64418);
+
+}
+
+.show-more-btn img {
+  height: 25px;
+  width: auto;
+  min-width: 20px;
+  align-self: center;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.show-more-btn.design-skills-btn,
+.show-more-btn.soft-skills-btn {
+  display: none;
+}
+
+@media (max-width: 1030px) {
+
+  .title3,
+  .title4 {
+    display: block;
+  }
+
+  .title3 {
+    font-size: 36px;
+    margin-bottom: 120px;
+    margin-left: 0;
+  }
+
+  .title2 {
+    display: none;
+  }
+
+  .title {
+    margin-bottom: 0;
+  }
+
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    padding: 0;
+    margin: 10% 0 0 0;
+  }
+
+  .left-side {
+    order: 2;
+    padding: 0;
+    margin: 0;
+  }
+
+  .about .box {
+    padding: 5%;
+    margin: 30px 0;
+  }
+
+  .about .box .text h4 {
+    font-size: 18px;
+    margin-top: 4%;
+  }
+
+  .last-child {
+    margin-bottom: 4%;
+  }
+
+  .right-side {
+    order: 1;
+    margin: 4% 0 0 0;
+    padding: 0;
+  }
+
+  .container .right-side {
+    margin-top: 6%;
+  }
+
+  .career-growth {
+    margin-bottom: 120px;
+    border-bottom: none;
+  }
+
+  .career-growth ul {
+    box-shadow: none;
+    margin: 10px auto;
+    padding: 0;
+  }
+
+  .career-growth ul li {
+    box-shadow: rgba(201, 154, 110, 0.35) 0px 5px 15px;
+    padding: 4%;
+    margin: 30px 0;
+  }
+
+  .career-growth .sub-title,
+  .skills-container .sub-title {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .career-growth img {
+    margin-bottom: 4%;
+  }
+
+  .skills-container .second-column {
+    margin-bottom: 4%;
+  }
+
+  .skills-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .skills-container .title {
+    grid-row: auto;
+    margin-bottom: 30px;
+  }
+
+  .skills-container button {
+    margin-bottom: 4%;
+  }
+
+  .first-column,
+  .second-column {
+    width: 100%;
+    box-shadow: rgba(201, 154, 110, 0.35) 0px 5px 15px;
+    margin-bottom: 4%;
+  }
+
+  .first-column h5,
+  .second-column h5 {
+    margin-bottom: 0;
+  }
+
+  .first-column {
+    margin-bottom: 120px;
+  }
+
+  .second-column {
+    margin-bottom: 0;
+  }
+
+  .skills-list {
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    margin-left: 4%;
+  }
+
+  .skills-list.show-all {
+    max-height: none;
+  }
+
+  .skills-list .skill {
+    display: none;
+  }
+
+  .show-more-btn.design-skills-btn,
+  .show-more-btn.soft-skills-btn {
+    display: block;
+  }
+
+  .show-more-btn {
+    display: none;
+  }
+
+  .show-more-btn {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 770px) {
+
+  .title,
+  .title2,
+  .title3,
+  .title4 {
+    margin-left: 0;
+  }
+
+  .title3 {
+    margin-bottom: 15%;
+  }
+
+  .left-side {
+    margin: 18% 1% 5% 0;
+  }
+
+  .about .box .year_company {
+    margin-bottom: 5px;
+  }
+
+  .career-growth {
+    margin-bottom: 35%;
+  }
+
+  .career-growth ul li:last-child {
+    border-bottom: none;
+  }
+
+  .skills-container {
+    padding: 0;
+  }
+
+  .first-column {
+    border-bottom: none;
+  }
+
+  .first-column,
+  .second-column {
+    margin-left: 0;
+    border-left: none;
+  }
+
+
+  .first-column h5,
+  .second-column h5 {
+    margin-left: 0;
+  }
+
+  .first-column ul,
+  .second-column ul {
+    margin-left: 8%;
+    padding: 0;
+  }
+
+  .show-more-btn.soft-skills-btn {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 580px) {
+  .title3 {
+    font-size: 26px;
+    margin-top: 4%;
+  }
+
+  .title,
+  .title4 {
+    font-size: 18px;
+    margin-bottom: 4%;
+  }
+
+  .container {
+    margin-top: 12%;
+  }
+
+  .right-side,
+  .left-side {
+    padding: 2%;
+  }
+}

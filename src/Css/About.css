@@ -1,0 +1,174 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding: 2rem;
+    margin: 4% auto;
+}
+
+.about-title {
+    font-family: 'Playfair Display';
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 600;
+    color: #fdf5ee;
+    margin-bottom: 80px;
+}
+
+.about-inner-container {
+    margin-top: 4%;
+}
+
+.about-quote-section {
+    color: #fff;
+    padding: 4%;
+    margin: 2% 0 8% 0;
+    border-radius: 4px;
+}
+
+.about-quote-section h3 {
+
+    font-family: 'Playfair Display';
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #B88746, #FDF5A6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.about-quote-section h6 {
+    font-family: 'Questrial';
+    color: #c9c3bb;
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    font-family: 'Playfair Display';
+    font-weight: 200;
+}
+
+.about-buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1rem;
+}
+
+.about-download-button,
+.about-getintouch {
+    padding: 0.6rem;
+    align-self: flex-start;
+    border-radius: 4px;
+    border: 1px solid rgb(90, 79, 79);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.about-download-button {
+    background: linear-gradient(135deg, #ac343e, #660e29, #d64418);
+}
+
+.about-getintouch {
+    background-color: rgba(101, 90, 83, 0.00);
+}
+
+
+@media (max-width: 1300px) {
+    .about-container {
+        width: 80%;
+    }
+
+    .about-title {
+        font-size: 32px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+
+    }
+
+    .about-quote-section {
+        padding: 4rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .about-container {
+        width: 90%;
+    }
+
+    .about-quote-section {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-container {
+        width: 90%;
+        padding: 1rem;
+    }
+}
+
+
+@media (max-width: 570px) {
+    .about-container {
+        margin-top: 12%;
+        padding: 0;
+    }
+
+    .about-title {
+        font-size: 28px;
+        margin: 4% 4% 10% 0;
+    }
+
+    .about-inner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-quote-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
+        padding: 2rem;
+        margin-left: 0;
+        margin-bottom: 20%;
+    }
+
+    .about-quote-section h3 {
+        font-size: 24px;
+        width: 80%;
+    }
+
+    .about-download-button,
+    .about-getintouch {
+        width: 50%;
+        font-size: 0.7rem;
+        align-self: center;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .about-quote-section {
+        padding: 1rem;
+    }
+
+    .about-quote-section h3 {
+        width: 100%;
+    }
+}
