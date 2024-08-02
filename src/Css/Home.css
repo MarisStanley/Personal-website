@@ -10,9 +10,6 @@
   }
 }
 
-
-
-
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -24,7 +21,6 @@
   margin: 1% auto;
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgb(46, 43, 43);
-
 }
 
 .home-container-wrapper {
@@ -40,7 +36,7 @@
   opacity: 0;
   animation: fadeInUp 1s forwards;
   padding: 5% 5% 0 5%;
-  color: #fff8f8;
+  color: #fdf5ee;
   line-height: normal;
   min-width: 40%;
   width: 100%;
@@ -78,8 +74,15 @@
   gap: 1rem;
 }
 
+.first-part {
+  font-family: 'Playfair Display';
+}
+
 .second-part {
-  
+  font-family: 'Playfair Display';
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
   letter-spacing: 1px;
   font-weight: 800;
   background: linear-gradient(135deg, #be873e, #fcf29a);
@@ -91,11 +94,9 @@
 .download-button,
 .about-me-button {
   padding: 0.6rem;
-
   border-radius: 4px;
   border: 1px solid rgb(90, 79, 79);
-
-  color: #ffffff;
+  color: #fdf5ee;
   text-align: center;
   font-family: 'Inter';
   font-size: 0.8rem;
@@ -106,12 +107,8 @@
 }
 
 .download-button {
- 
   background: linear-gradient(135deg, #ac343e, #660e29, #d64418);
- 
 }
-
-
 
 .image-wrapper {
   display: flex;
@@ -120,7 +117,6 @@
   position: relative;
   flex-grow: 1;
   align-self: flex-end;
-
 }
 
 .home-image {
@@ -211,7 +207,6 @@
     padding: 0.5rem;
     width: 50%;
     font-size: 0.7rem;
-    
   }
 }
 

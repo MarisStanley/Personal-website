@@ -21,7 +21,7 @@
 }
 
 .about-quote-section {
-    color: #fff;
+    color: #fdf5ee;
     padding: 4%;
     margin: 2% 0 8% 0;
     border-radius: 4px;
@@ -64,7 +64,7 @@ p {
     align-self: flex-start;
     border-radius: 4px;
     border: 1px solid rgb(90, 79, 79);
-    color: #FFF;
+    color: #fdf5ee;
     text-align: center;
     font-family: 'Inter';
     font-size: 0.8rem;
@@ -171,4 +171,5 @@ p {
     .about-quote-section h3 {
         width: 100%;
     }
+
 }

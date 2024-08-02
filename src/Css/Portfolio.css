@@ -16,7 +16,7 @@
   text-transform: uppercase;
   font-size: 46px;
   font-weight: 600;
-  color: #ffffff;
+  color:#fdf5ee;
   margin-bottom: 80px;
 }
 
@@ -107,6 +107,10 @@ p {
   font-family: 'Playfair Display';
   font-size: 0.9rem;
   font-weight: 200;
+}
+
+.portfolio-container-right-side p:last-child {
+  color: #c4beb7;
 }
 
 

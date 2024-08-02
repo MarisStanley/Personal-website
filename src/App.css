@@ -4,30 +4,6 @@ body {
   box-sizing: border-box;
 }
 
-h1,
-h2 {
-  font-family: 'Libre Bodoni', 'Times New Roman', Times, serif;
-  font-family: 'Playfair Display';
-}
-
-h2 {
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1px;
-
-}
-
-h2 {
-  color: #ffffff;
-}
-
-p {
-  font-family: 'Playfair Display';
-
-  font-weight: 200;
-
-}
-
 input,
 textarea {
   color: #FFF;
@@ -39,7 +15,6 @@ textarea {
   margin-top: 20px;
   box-sizing: border-box;
 }
-
 
 @keyframes slideDown {
   0% {

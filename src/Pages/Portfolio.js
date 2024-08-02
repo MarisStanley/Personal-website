@@ -34,6 +34,9 @@ function Portfolio() {
             creative and play around with different styles. This is so that I will go through
             the things I learned at the JavaScript/React course again. Photos are from Freepik.
           </p>
+          <p>
+            React · Visual Studio Code · Firebase · Emailjs · Adobe Photoshop · Figma
+          </p>
         </div>
       </section>
 
@@ -47,7 +50,7 @@ function Portfolio() {
         <div className='portfolio-container-right-side'>
           <h5>Portfolio Website</h5>
           <div className='portfolio-logo'>
-            <a href="" aria-label="GitHub repository">
+            <a href="https://github.com/MarisStanley/Personal-website" aria-label="GitHub repository">
               <div className='portfolio-link'>
                 <img className='github-logo' src="github-logo.png" alt="GitHub logo" />
               </div>

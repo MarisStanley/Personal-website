@@ -11,17 +11,6 @@ function Experience() {
   const designSkillsRef = useRef(null);
 
 
-
-
-  const toggleShowMore = () => {
-    const newState = !showMoreSoftSkills;
-    setShowMoreSoftSkills(newState);
-    setShowMoreDesignSkills(newState);
-    if (newState) {
-      scrollToElement(softSkillsRef);
-    }
-  };
-
   const toggleShowMore2 = () => {
     const newState = !showMoreSoftSkills;
     setShowMoreSoftSkills(newState);

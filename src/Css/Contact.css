@@ -19,7 +19,7 @@
   font-size: 46px;
   font-weight: 600;
   text-transform: uppercase;
-  color: white;
+  color: #fdf5ee;
   margin-bottom: 80px
 }
 
@@ -37,7 +37,7 @@
 }
 
 .white {
-  color: #fff8f8;
+  color: #fdf5ee;
 }
 
 .gradient {
@@ -113,7 +113,7 @@
   align-self: flex-end;
   text-align: center;
   font-family: 'Inter';
-  color: #FFF;
+  color: #fdf5ee;
   font-size: 12px;
   font-weight: 300;
   line-height: normal;

@@ -1,5 +1,5 @@
 p {
-  color: #ffffff;
+  color: #fdf5ee;
   margin: 60px 0;
   padding-bottom: 20px;
 }
@@ -88,7 +88,7 @@ p {
 
 .about .box .year_company h6 {
   font-family: 'Questrial';
-  color: #c9c3bb;
+  color: #c4beb7;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -149,7 +149,7 @@ p {
 
 .career-growth h6 {
   font-family: 'Questrial';
-  color: #c9c3bb;
+  color: #c4beb7;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -200,7 +200,7 @@ p {
 }
 
 .skills-container ul li h6 {
-  color: #fff;
+  color: #fdf5ee;
   font-weight: 200;
 }
 
@@ -244,7 +244,7 @@ p {
 
 .skill {
   font-size: 14px;
-  color: white;
+  color: #fdf5ee;
 }
 
 .skills-list.show-all .skill {
