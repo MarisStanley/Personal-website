@@ -99,10 +99,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8%;
+  margin: 0 auto;
   overflow: hidden;
   transition: 0.5s;
   z-index: 10;
+ 
 }
 
 .sidenav .closebtn {
@@ -110,34 +111,50 @@ header {
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  
   color: #f1f1f1;
   background: transparent;
   border: none;
 }
 
+.sidenav-inner-container {
+  margin: 25% 0; 
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+ 
+}
+
 .sidenav a {
-  text-decoration: none;
-  color: white
+   text-decoration: none;
+  color: white;
+  
+ 
+ 
+  
 }
 
 .menu-items {
-  position: absolute;
-  left: 1px;
-  width: 100%;
-  height: auto;
-  display: flex;
+  
+  
+   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
+ width: 100%;
   padding: 10%;
-  margin: 40% auto;
+  
   transition: all 0.3s ease;
+  
 }
+
+
 
 .menu-items:active,
 .menu-items:hover {
   background: linear-gradient(135deg, #ac343e, #660e29, #d64418);
+  
 }
 
 .menu-items img {
@@ -159,6 +176,8 @@ header {
   flex-grow: 1;
 }
 
+
+
 .menu-home,
 .menu-contact,
 .menu-experience,
@@ -172,9 +191,9 @@ header {
 }
 
 .menu-icon {
-  position: fixed;
+  position: absolute;
   left: 2%;
-  top: 2%;
+  top: 10%;
   width: 35px;
   height: auto;
   border: 1px solid #ffffff;
@@ -188,11 +207,13 @@ header {
 }
 
 .menu-socialmedia {
-  bottom: 8%;
+  position: absolute;
+  bottom: 22%;
 }
 
 .menu-socialmedia1 {
-  bottom: 0;
+  position: absolute;
+  bottom: 12%;
 }
 
 .menu-socialmedia::before {
@@ -239,11 +260,25 @@ header {
   margin: 0 auto;
 }
 
-@media (max-width: 1000px) {
+@media (max-height: 735px) {
+  .sidenav .closebtn {
+    top: 10px;
+    font-size: 30px;
+  }
 
   .menu-items {
-    margin-top: 10vh;
+    padding: 6%;
   }
+
+  .menu-socialmedia1 {
+    bottom: 12%;
+  }
+  
+}
+
+@media (max-width: 1000px) {
+
+ 
 
   .menu-socialmedia {
     margin-top: 60%;
@@ -271,8 +306,8 @@ header {
 @media (max-width: 500px) {
   .sidenav {
     padding-top: 10px;
-    height: 100vh;
-    gap: 8%;
+    
+   
   }
 
   .sidenav a {

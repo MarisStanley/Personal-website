@@ -7,6 +7,7 @@ import Experience from './Pages/Experience';
 import About from './Pages/About';
 
 
+
 import './App.css';
 
 function App() {
@@ -56,13 +57,15 @@ function App() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+ 
+
 
   return (
     <div ref={backToTop}>
 
       <div id="mySidenav" className="sidenav" ref={sidenavRef}>
         <button class="closebtn" onClick={closeNav}>&times;</button>
-
+   <div className='sidenav-inner-container'>
         <a href="/" id="home">
           <div className='menu-items'>
             <img className='menu-home' src="home-icon.png" alt="home-icon" />
@@ -92,7 +95,7 @@ function App() {
         </a>
 
         <a href="/contact" id="contact">
-          <div className='menu-items'>
+          <div className='proov menu-items '>
             <img className='menu-contact' src="contact.png" alt="contact-icon" />
             <h3>Contact</h3>
           </div>
@@ -110,7 +113,7 @@ function App() {
             <img className='menu-github ' src="github-logo.png" alt="github-logo-icon" />
             <h3>GitHub</h3>
           </div>
-        </a>
+        </a></div>
 
         <h3 className='menu-bottom-text'>Made with love by Maris Stanley <br />2024</h3>
       </div>

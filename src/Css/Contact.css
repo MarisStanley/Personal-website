@@ -114,7 +114,6 @@
 
 
 .send-button {
-  
   align-self: flex-end;
   text-align: center;
   width: 8rem;
@@ -136,7 +135,7 @@
   align-self: flex-end;
   width: 50%;
   padding: 15px;
-  background-color: #0dbe25;
+  background-color: #236d2d;
   color: white;
   border-radius: 4px;
   margin-bottom: 15px;
@@ -147,11 +146,10 @@
 
 .fade-out {
   opacity: 0;
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 .closebtn {
- 
   margin-left: 15px;
   color: white;
   font-weight: bold;
@@ -163,12 +161,13 @@
   z-index: 1;
 }
 
-
 .closebtn:hover {
-  color: black;
+  font-weight: 800;
+  background: linear-gradient(135deg, #B88746, #FDF5A6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
-
-
 
 
 @media (max-width:1200px) {
@@ -237,7 +236,7 @@
   }
 
   .closebtn {
-    font-weight:400;
+    font-weight: 400;
     font-size: 4px;
     line-height: 16px;
   }

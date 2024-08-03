@@ -211,18 +211,19 @@ function Experience() {
                 <li className="skill">HTML</li>
                 <li className="skill">JavaScript</li>
                 <li className="skill">React</li>
-                <li className="skill">Figma</li>
                 <li className="skill">Wireframes</li>
                 <li className="skill">Prototyping</li>
                 <li className="skill">Mockups</li>
                 <li className="skill">Usability testing</li>
                 <li className="skill">User research</li>
+                <li className="skill">Figma</li>
+                <li className="skill">Visual Studio Code</li>
+                <li className="skill">Slack</li>
                 <li className="skill">Adobe Photoshop</li>
                 <li className="skill">Creative Cloud</li>
                 <li className="skill">Canva</li>
                 <li className="skill">ChatGPT</li>
                 <li className="skill">Leonardo.Ai</li>
-                <li className="skill">CapCut</li>
               </ul>
               <button
                 onClick={toggleShowMore1}
@@ -235,7 +236,7 @@ function Experience() {
               </button>
             </div>
 
-          
+
           </div>
         </div>
 
