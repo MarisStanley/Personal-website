@@ -100,7 +100,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 8%;
-  overflow-x: hidden;
+  overflow: hidden;
   transition: 0.5s;
   z-index: 10;
 }
@@ -129,9 +129,9 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   padding: 10%;
-  margin: 50% auto;
+  margin: 40% auto;
   transition: all 0.3s ease;
 }
 
@@ -188,11 +188,11 @@ header {
 }
 
 .menu-socialmedia {
-  margin-top: 100%;
+  bottom: 8%;
 }
 
 .menu-socialmedia1 {
-  margin-top: 100%;
+  bottom: 0;
 }
 
 .menu-socialmedia::before {
@@ -210,7 +210,6 @@ header {
   position: absolute;
   width: 40%;
   bottom: 4%;
-  margin: 8%;
   align-self: center;
   flex-grow: 1;
   font-family: 'Inter', sans-serif;
@@ -270,7 +269,6 @@ header {
 }
 
 @media (max-width: 500px) {
-
   .sidenav {
     padding-top: 10px;
     height: 100vh;
@@ -293,7 +291,6 @@ header {
 }
 
 @media (max-width: 350px) {
-
   .menu-icon {
     top: 20%;
     left: 4%;
