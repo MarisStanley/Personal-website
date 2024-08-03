@@ -16,7 +16,7 @@ const About = () => {
                         </div>
 
                         <p >I will not make you read through all of it, unelss you want to, of course.
-                            I am currently learning front-end development. My knowledge of CSS and HTML is good, though not great—still learning. As for JavaScript, I'd say I'm at the beginner stage, but...learning.
+                            As of July 2024, I am currently learning front-end development. My knowledge of CSS and HTML is good, though not great—still learning. As for JavaScript, I'd say I'm at the beginner stage, but...learning.
                         </p>
                         <p>
                             Still interested? Awesome!

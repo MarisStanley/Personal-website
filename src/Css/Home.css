@@ -75,7 +75,7 @@
 }
 
 .first-part {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', 'Merriweather', Georgia, serif;
 }
 
 .second-part {
@@ -98,7 +98,7 @@
   border: 1px solid rgb(90, 79, 79);
   color: #fdf5ee;
   text-align: center;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 0.8rem;
   font-weight: 300;
   text-transform: uppercase;

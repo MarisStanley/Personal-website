@@ -8,7 +8,7 @@ p {
 .title2,
 .title3,
 .title4 {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', 'Merriweather', Georgia, serif;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -23,7 +23,7 @@ p {
 
 .title2 {
   color: #fdf5ee;
-  font-size: 46px;
+  font-size: 36px;
   margin-left: 30px;
   margin-bottom: 80px;
 }
@@ -87,7 +87,7 @@ p {
 }
 
 .about .box .year_company h6 {
-  font-family: 'Questrial';
+  font-family: 'Questrial', Arial, sans-serif;
   color: #c4beb7;
   font-size: 14px;
   font-weight: 600;
@@ -95,7 +95,7 @@ p {
 }
 
 .about .box .year_company h5 {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', 'Merriweather', Georgia, serif;
   color: #fdf5ee;
   font-size: 18px;
   font-weight: 600;
@@ -103,16 +103,16 @@ p {
 }
 
 .about .box .text h4 {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', 'Merriweather', Georgia, serif;
   text-transform: uppercase;
-  margin-left: 0;
-  margin-bottom: 10px;
+  font-size: 20px;
   font-weight: 800;
   background: linear-gradient(135deg, #B88746, #FDF5A6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-size: 20px;
+  margin-left: 0;
+  margin-bottom: 10px;
 }
 
 .right-side {
@@ -126,11 +126,11 @@ p {
 }
 
 .career-growth h5 {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', 'Merriweather', Georgia, serif;
   color: #fdf5ee;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 16px;
 }
 
 .career-growth img {
@@ -148,7 +148,7 @@ p {
 }
 
 .career-growth h6 {
-  font-family: 'Questrial';
+  font-family: 'Questrial', Arial, sans-serif;
   color: #c4beb7;
   font-size: 14px;
   font-weight: 600;
@@ -175,7 +175,7 @@ p {
 }
 
 .career-growth .sub-title {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', 'Merriweather', Georgia, serif;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 800;
@@ -192,7 +192,7 @@ p {
 .skills-container ul li {
   position: relative;
   list-style: none;
-  font-family: 'Questrial';
+  font-family: 'Questrial', Arial, sans-serif;
   font-size: 0.9rem;
   font-weight: 200;
   margin: 10px 0;
@@ -223,7 +223,7 @@ p {
 
 .first-column h5,
 .second-column h5 {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', 'Merriweather', Georgia, serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 800;
@@ -243,8 +243,8 @@ p {
 }
 
 .skill {
-  font-size: 14px;
   color: #fdf5ee;
+  font-size: 14px;
 }
 
 .skills-list.show-all .skill {
@@ -268,14 +268,13 @@ p {
   padding: 0 10% 0 10%;
   margin: 0 auto;
   background: linear-gradient(135deg, #ac343e, #660e29, #d64418);
-
 }
 
 .show-more-btn img {
+  align-self: center;
   height: 25px;
   width: auto;
   min-width: 20px;
-  align-self: center;
   border-radius: 4px;
   margin: 0 auto;
 }
@@ -344,8 +343,8 @@ p {
   }
 
   .career-growth {
-    margin-bottom: 120px;
     border-bottom: none;
+    margin-bottom: 120px;
   }
 
   .career-growth ul {
@@ -362,8 +361,8 @@ p {
 
   .career-growth .sub-title,
   .skills-container .sub-title {
-    width: 90%;
     font-size: 18px;
+    width: 90%;
   }
 
   .career-growth img {
@@ -393,8 +392,8 @@ p {
   .first-column,
   .second-column {
     width: 100%;
-    box-shadow: rgba(201, 154, 110, 0.35) 0px 5px 15px;
     margin-bottom: 4%;
+    box-shadow: rgba(201, 154, 110, 0.35) 0px 5px 15px;
   }
 
   .first-column h5,
@@ -412,9 +411,9 @@ p {
 
   .skills-list {
     max-height: 200px;
+    margin-left: 4%;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
-    margin-left: 4%;
   }
 
   .skills-list.show-all {
@@ -478,8 +477,8 @@ p {
 
   .first-column,
   .second-column {
-    margin-left: 0;
     border-left: none;
+    margin-left: 0;
   }
 
 

@@ -8,11 +8,11 @@
 }
 
 .about-title {
-    font-family: 'Playfair Display';
-    text-transform: uppercase;
-    font-size: 46px;
-    font-weight: 600;
+    font-family: 'Playfair Display', 'Merriweather', Georgia, serif;
     color: #fdf5ee;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
     margin-bottom: 80px;
 }
 
@@ -22,14 +22,13 @@
 
 .about-quote-section {
     color: #fdf5ee;
+    border-radius: 4px;
     padding: 4%;
     margin: 2% 0 8% 0;
-    border-radius: 4px;
 }
 
 .about-quote-section h3 {
-
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', 'Merriweather', Georgia, serif;
     text-align: center;
     letter-spacing: 1px;
     font-weight: 800;
@@ -40,14 +39,14 @@
 }
 
 .about-quote-section h6 {
-    font-family: 'Questrial';
+    font-family: 'Questrial', Arial, sans-serif;
     color: #c9c3bb;
     font-weight: 400;
     text-align: center;
 }
 
 p {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', 'Merriweather', Georgia, serif;
     font-weight: 200;
 }
 
@@ -60,19 +59,20 @@ p {
 
 .about-download-button,
 .about-getintouch {
-    padding: 0.6rem;
+    display: inline-block;
+    width: 8rem;
     align-self: flex-start;
-    border-radius: 4px;
-    border: 1px solid rgb(90, 79, 79);
+    font-family: 'Inter', sans-serif;
     color: #fdf5ee;
-    text-align: center;
-    font-family: 'Inter';
-    font-size: 0.8rem;
+    font-size: 12px;
     font-weight: 300;
     line-height: normal;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgb(90, 79, 79);
+    padding: 0.5rem;
 }
 
 .about-download-button {
@@ -154,11 +154,12 @@ p {
         width: 80%;
     }
 
+    .about-buttons {
+        justify-content: center;
+    }
+
     .about-download-button,
     .about-getintouch {
-        width: 50%;
-        font-size: 0.7rem;
-        align-self: center;
         padding: 0.5rem;
     }
 }
