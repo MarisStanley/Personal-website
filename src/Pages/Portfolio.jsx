@@ -30,7 +30,7 @@ function Portfolio() {
             practice what I learned during the JavaScript/React course.
           </p>
           <p>
-            React · Visual Studio Code · Firebase · Emailjs · Adobe Photoshop · Figma · Freepik
+            React · HTML · CSS · JavaScript · Visual Studio Code · Firebase · Emailjs · Adobe Photoshop · Figma · Leonardo AI  · Canva
           </p>
         </div>
       </section>
@@ -92,7 +92,7 @@ function Portfolio() {
             Lots of JavaScript and React, but very little CSS, which means it is not responsive.
           </p>
           <p>
-            React · Visual Studio Code · Firebase · Emailjs · Mui · React-i18next · Leaflet · Bootstrap · Freepik
+            React · Visual Studio Code · Firebase · Emailjs · Mui · React-i18next · Leaflet · Bootstrap · Freepik · Postman
           </p>
         </div>
       </section>
