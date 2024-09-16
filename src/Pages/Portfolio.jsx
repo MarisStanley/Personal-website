@@ -10,7 +10,7 @@ function Portfolio() {
         <div className='portfolio-container-left-side'>
           <picture>
             <source srcSet="viviene3.png" media="(max-width: 900px)" />
-            <img className='portfolio-img' src="viviene3.png" alt="Viviene project" />
+            <img className='portfolio-img' src="vivienne.png" alt="Viviene project" />
           </picture>
         </div>
 
