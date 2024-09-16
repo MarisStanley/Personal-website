@@ -14,7 +14,7 @@ function Home() {
           </h1>
           <h6 className='home-text'>and I like to code.</h6>
           <div className='home-buttons'>
-          <a href="/MarisStanley.pdf" download className='download-button'>DOWNLOAD CV</a>
+          <a href="/MarisStanley_eng.pdf" download className='download-button'>DOWNLOAD CV</a>
           <a href="/about"  className='about-me-button'>ABOUT ME</a>
           </div>
         </div>
