@@ -219,11 +219,11 @@ function Experience() {
             <h4 className="title">Career Growth</h4>
             <ul>
               <li>
-                <h6>ONGOING</h6>
+                <h6>09.2024</h6>
                 <h5 className="sub-title">
-                  The Complete 2024 Web Development Bootcamp
+                  Various IT related courses
                 </h5>
-                <h5 className="last-child">Udemy</h5>
+                <h5 className="last-child"> LinkedIn Learning</h5>
               </li>
               <li>
                 <h6> 09.2023 - 01.2024</h6>

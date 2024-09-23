@@ -92,7 +92,7 @@
 }
 
 .download-button,
-.about-me-button {
+.portfolio-button {
   padding: 0.6rem;
   border-radius: 4px;
   border: 1px solid rgb(90, 79, 79);
@@ -106,7 +106,7 @@
   display: inline-block;
 }
 
-.download-button {
+.portfolio-button {
   background: linear-gradient(135deg, #ac343e, #660e29, #d64418);
 }
 
@@ -133,7 +133,7 @@
   }
 
   .download-button,
-  .about-me-button {
+  .portfolio-button {
     width: 50%;
     font-size: 0.8rem;
   }
