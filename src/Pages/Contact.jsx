@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import DOMPurify from 'dompurify';
 import "../../src/Css/Contact.css";
 
 
@@ -19,6 +20,16 @@ function Contact() {
       form.current.classList.add('was-validated');
       return;
     }
+
+    const sanitizedName = DOMPurify.sanitize(form.current.from_name.value);
+    const sanitizedEmail = DOMPurify.sanitize(form.current.from_email.value);
+    const sanitizedMessage = DOMPurify.sanitize(form.current.message.value);
+
+    
+    form.current.from_name.value = sanitizedName;
+    form.current.from_email.value = sanitizedEmail;
+    form.current.message.value = sanitizedMessage;
+
 
     emailjs.sendForm( 
       process.env.REACT_APP_EMAILJS_SERVICE_ID, 
@@ -89,7 +100,7 @@ function Contact() {
           </div>
 
           <input name="from_email"
-            type="email" className='email-field' placeholder='E-mail' required id="email"></input>
+            type="email" className='email-field' placeholder='E-mail' required id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" ></input>
           <div className="invalid-feedback">
             Please enter a valid email.
           </div>

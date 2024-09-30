@@ -61,7 +61,7 @@ function Portfolio() {
             I did not want to just copy someone else. I wanted to make something that is...me. And I also wanted the design to look nice and clean. 
           </p>
           <p>
-            React · Visual Studio Code · Firebase · Emailjs · Leonardo Ai · Adobe Photoshop · Figma
+            React · Visual Studio Code · Firebase · DOMPurify · Emailjs · Leonardo Ai · Adobe Photoshop · Figma
           </p>
         </div>
       </section>
