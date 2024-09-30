@@ -12,13 +12,19 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log("sendEmail function triggered");
 
     if (!form.current.checkValidity()) {
+      console.log("Form is not valid");
       form.current.classList.add('was-validated');
       return;
     }
 
-    emailjs.sendForm('service_rz72xeh', 'template_m97uidf', form.current, 'TI6Ky8XgoxhjdOHSQ')
+    emailjs.sendForm( 
+      process.env.REACT_APP_EMAILJS_SERVICE_ID, 
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID, 
+      form.current, 
+      process.env.REACT_APP_EMAILJS_USER_ID)
       .then((result) => {
         console.log(result.text);
         setMessageSent(true);
@@ -28,6 +34,8 @@ function Contact() {
 
     form.current.reset();
     form.current.classList.remove('was-validated');
+    
+
   };
 
   useEffect(() => {
